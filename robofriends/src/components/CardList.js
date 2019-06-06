@@ -6,8 +6,6 @@ const CardList = ({ robots }) => {
   //   throw new Error('naaah');
   // }
 
-  console.log('card list');
-
   return (
     <div>
       {robots.map((user, i) => {
