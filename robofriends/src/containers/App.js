@@ -7,6 +7,12 @@ import { setSearchField, requestRobots } from '../actions';
 import MainPage from '../components/MainPage';
 
 class App extends Component {
+
+  componentDidMount() {
+    console.log(process.env.REACT_APP_SAY_HI);
+    
+  }
+
   render() {
     return <MainPage {...this.props} />;
   }
